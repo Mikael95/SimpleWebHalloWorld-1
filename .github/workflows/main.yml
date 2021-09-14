@@ -35,5 +35,5 @@ jobs:
         push: true
         context: ${ {env.working-directory} }/simplewebhalloworld.csproj
         tags: |
-          ghcr.io/MYGITUSERNAME/SimpleWebHalloWorld-1:latest
-          ghcr.io/MYGITUSERNAME/SimpleWebHalloWorld-1:${ { github.run_number } }
+          ghcr.io/Mikael95/simplewebhalloworld-1:latest
+          ghcr.io/Mikael95/simplewebhalloworld-1:${ { github.run_number } }
