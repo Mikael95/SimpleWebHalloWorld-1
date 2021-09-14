@@ -36,4 +36,4 @@ jobs:
         context: ${ {env.working-directory} }/simplewebhalloworld.csproj
         tags: |
           ghcr.io/mikael95/simplewebhalloworld-1:latest
-          ghcr.io/mikael95/simplewebhalloworld-1:${ { github.run_number } }
+          ghcr.io/mikael95/simplewebhalloworld-1:${{ github.run_number }}
