@@ -22,4 +22,4 @@ jobs:
           push: true
           context: ${{ env.working-directory }}
           tags: |
-            ghcr.io/kevinkallin/test:latest
+            ghcr.io/mikael95/test:latest
